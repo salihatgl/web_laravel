@@ -11,101 +11,108 @@
     </head>
     
     <body >
-    <nav class="navbar navbar-expand-lg bg-dark text-white">
-  <div class="container-fluid">
-    <a class="navbar-brand text-white ms-5" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-white" >
-        <li class="nav-item">
-          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+  <ul class="navbar-nav">
+  <li class="nav-item">
+          <a class="nav-link active text-dark me-2" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Link</a>
+          <a class="nav-link text-dark me-2" href="#">ABOUT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled ">Disabled</a>
+          <a class="nav-link  text-dark me-2 " href="#">CONTACTS</a>
         </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2 bg-dark show" type="search" placeholder="Search" aria-label="Search">
-      </form>
-      <div>
-      <button class="btn btn-dark border-white  me-2" type="submit">Login</button>
-      <button class="btn btn-warning border-warning  me-2" type="submit">Sign-up</button>
-      </div>
-    </div>
-  </div>
+        <li class="nav-item">
+          <a class="nav-link  text-dark me-2"href="#">TYPOGRAPHY</a>
+        </li>
+  </ul>
 </nav>
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-   
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-   
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="https://picsum.photos/id/51/1600/500" alt="carousel" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/id/51/1600/500" alt="carousel" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="https://picsum.photos/id/51/1600/500" alt="carousel" class="d-block" style="width:100%">
-      </div>
-    </div>
-    
-    
-    <div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
+      <div class="row">
+<div class="col-8">
+<img src="https://picsum.photos/id/236/900/600" alt="hotel" class="mt-5 mb-5 ms-5 me-1">
 </div>
-<hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 mt-5">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
-      </div>
-      <div class="col-md-5">
-       <div style="width: 400px; height:400px;" class="bg-dark"></div>
-
-      </div>
+  <div class="col-4 ">
+     <div style="width: 450px; height:600px; background-color:#f1f1f1" class=" pe-5">
+     <form class="mt-5 mb-5 ms-5 " >
+     <div class="mb-3 mt-3">
+      <br>
+      <h1><b> Book a Room</b></h1>
+      <label for="name" class="mt-4 ">YOUR NAME</label>
+      <input type="name" class="form-control border-dark" id="name" placeholder="Your Full Name" name="name">
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 ">
-      <div style="width: 400px; height:400px;" class="bg-dark"></div>
-      </div>
+    <div class="mb-3 mt-3">
+    <label for="ARRIVAL">ARRIVAL</label><br>
+  <input type="date" id="ARRIVAL" style="height:37px; width:100%;" name="ARRIVAL" value="Chech-in Date">
     </div>
-    <div class="container">
+    <div class="mb-3 mt-3">
+  <label for="ARRIVAL">ARRIVAL</label><br>
+  <input type="date" id="ARRIVAL" style="height:37px; width:100%;" name="ARRIVAL" value="Chech-in Date">
+    </div>
+    <div class="btn-group f-left ms-5">
+  <button class="btn border-dark  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+  ADULTS
+  </button>
+  <ul class="dropdown-menu">
+    <li class="dropdown-item">1</li>
+    <li class="dropdown-item">2</li>
+    <li class="dropdown-item">3</li>
+    <li class="dropdown-item">4</li>
+    <li class="dropdown-item">5</li>
+  </ul>
+</div>
+<div class="btn-group  ms-5">
+<button class="btn border-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" >
+CHILDREN
+  </button>
+  <ul class="dropdown-menu">
+    <li class="dropdown-item">1</li>
+    <li class="dropdown-item">2</li>
+    <li class="dropdown-item">3</li>
+    <li class="dropdown-item">4</li>
+    <li class="dropdown-item">5</li>
+  </ul>
+</div>
+    
+<div class="d-grid mt-5">
+  <button type="button" class="btn btn-lg btn-block" style="background-color:#8f859e">Full-Width Button</button>
+</div>
+    </div>  
+  </form>
+     </div>
+     </div>
+     </div>
+     <div class="row">
+      <div class="col-7">
+      <img src="https://picsum.photos/id/236/400/400" alt="hotel" class="m-5" style="float: right; margin-right:100px; width:89%; height:300px;">
+      </div>
+      <div class="col-5 mt-5">
+        <div style="height: 300px; background-color:#8f859e; width:580px; color:white;"><br><br>
+        <h1 class="ms-5"><b> About Us</b></h1>
+        <p class="text-white ms-5">Committed to everyone seeking energy and excitement, we offer endless possibilities to unwind and reenergize.</p> <br>
+        <button type="button" class="btn btn-lg ms-5 border-white text-white" style="background-color:#8f859e">BOOK NOW</button>
+        </div>
+
+      </div>
+     </div>
+     <div style="width: 1500; height:500px; background-color:#f1f1f1; " class=" me-5 ms-5">
+     <pre class="p-5" style="float: left;"><br><br>
+       <h1>  Indoor Hotel Pool</h1>
+      The indoor heated pool has vaulted wood beam ceilings. The whirlpool
+      features bay windows and overlooks the pond and the north face of the
+      local beauty spot. For the safety and health reasons, children must be
+      accompanied by an adult when visiting the pool.
+
+      The serene pool at Royal Villas spa resort and hotel boasts sleek décor 
+      that features striking floor-to-ceiling teak columns set against a cool 
+      black tile floor. Poolside dining is also available, featuring a selection 
+      of dishes from any cuisine you desire that are both healthy and delicious. 
+      Daily aqua aerobics classes help keep guests fit while on the road.
+     </pre>
+     <img src="https://picsum.photos/id/236/400/400" alt="hotel" class="mt-5 mb-5 ms-5 " style="float: right; margin-right:100px;">
+
+     </div>
+     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
       
@@ -121,6 +128,8 @@
           </ul>
         </footer>
       </div>
+
+
 
 
 
