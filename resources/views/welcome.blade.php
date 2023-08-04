@@ -2,8 +2,7 @@
 <html lang="en">
 
 <head>
-
-    <title>Bootstrap 5</title>
+    <title>hello</title>
     <meta charset="UTF-8">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -12,23 +11,16 @@
     </script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/style.css" rel="stylesheet">
-
-    <style>
-    body, h1,h2,h3,h4, h5 {
-        font-family: "Raleway", sans-serif
-    }
-    </style>
 </head>
 
 <body class="bg-light">
-
     <nav class="navbar navbar-expand-sm bg-light justify-content-center border-bottom">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <a class="nav-link active text-dark me-2" href="#">Anasayfa</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-dark me-2" href="#">Hobiler</a>
+                <a class="nav-link text-dark me-2 active" href="#">Hobiler</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link  text-dark me-2 " href="#">Paylaşımlar</a>
@@ -39,137 +31,144 @@
         </ul>
     </nav>
 
-
-    <h1 class="text-center mt-5">MY BLOG</h1>
-    <p class="text-center mb-5">Welcome to the blog of <span class="bg-dark text-white p-1">unknown</span> </p>
-
     <div class="row">
-        <div class="col-7">
-            <img src="https://www.w3schools.com/w3images/woods.jpg" alt=""
-                style="width: 100%; height: 283px; margin-left:75px;">
-            <div style="margin-left:75px; border:1px solid black; width: 100%;">
-                <div class="m-3">
-                    <h3><b>TITLE HEADING</b></h3>
-                    <h5>Title description, April 7, 2014</h5><br>
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
-                        euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
-                        ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
-                        condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                    <button class="p-2">READ MORE >></button>
-                    <p style="float:right">Comments <span class="bg-dark text-white" style="padding:1px"> 0</span></p>
-                </div>
-            </div>
+        <div class="col-4">
+            <img src="https://static.wixstatic.com/media/84770f_579889e3c7ab4551ac493b6e60ebc25a~mv2.jpg/v1/fill/w_631,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_579889e3c7ab4551ac493b6e60ebc25a~mv2.jpg"
+                width="100%">
+
+        </div>
+        <div class="col-4">
+            <img src="https://static.wixstatic.com/media/75059a_a28bb23346c740cfa809bb26a81ce414~mv2.jpg/v1/fill/w_624,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/75059a_a28bb23346c740cfa809bb26a81ce414~mv2.jpg"
+                width="100%">
+        </div>
+        <div class="col-4">
+            <img src="https://static.wixstatic.com/media/84770f_c8617aa06c6e43f5a95ebf63003a2347~mv2.jpg/v1/fill/w_624,h_800,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/84770f_c8617aa06c6e43f5a95ebf63003a2347~mv2.jpg"
+                width="100%">
+
         </div>
 
-
-        <div class="col-5 mb-5">
-            <img src="https://www.w3schools.com/w3images/avatar_g.jpg" alt=""
-                style="width: 75%; height: 270px; margin-left:75px">
-            <div style="margin-left:75px; border:1px solid black; width:75%;">
-                <div class="m-3">
-                    <h4><b>My Name</b></h4><br>
-                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
-                        interest
-                        of lorem ipsum and mauris neque quam blog. I want to share my world with you.
-                        Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a
-                        interest
-                        of lorem ipsum and mauris neque quam blog. I want to share my world with you</p>
-                </div>
-            </div>
-        </div>
     </div>
 
     <div class="row">
-
-        <div class="col-7 mt-5">
-            <img src="https://www.w3schools.com/w3images/bridge.jpg" alt=""
-                style="width: 100%; height: 283px; margin-left:75px;">
-            <div style="margin-left:75px; border:1px solid black; width: 100%;">
-                <div class="m-3">
-                    <h3><b>TITLE HEADING</b></h3>
-                    <h5>Title description, April 7, 2014</h5><br>
-                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem
-                        euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed
-                        ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae
-                        justo
-                        condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-                    <button class="p-2">READ MORE >></button>
-                    <p style="float:right">Comments <span class="bg-dark text-white" style="padding:1px"> 2</span>
-                    </p>
+        <div class="col-6">
+            <div class="card mb-3" style="width: 540px;  margin-top:100px; margin-left:auto; margin-right:auto; ">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/75059a_cf2c39f511b6478eaea5b4f7713831c0~mv2.jpg/v1/fill/w_335,h_448,fp_0.50_0.50,q_90,enc_auto/75059a_cf2c39f511b6478eaea5b4f7713831c0~mv2.jpg"
+                            class="img-fluid rounded-start;" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 540px;  margin-top:40px; margin-left:auto; margin-right:auto;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/75059a_19d50c96541b4b1aa915d498b351bd17~mv2.jpg/v1/fill/w_268,h_358,fp_0.50_0.50,q_90,enc_auto/75059a_19d50c96541b4b1aa915d498b351bd17~mv2.jpg"
+                            class="img-fluid rounded-start;" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3" style="width: 540px;  margin-top:40px; margin-left:auto; margin-right:auto;">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="https://static.wixstatic.com/media/a27d24_77c3bdd084c14f50a13aa9b44485c2e3~mv2.jpg/v1/fill/w_335,h_448,fp_0.50_0.50,q_90,enc_auto/a27d24_77c3bdd084c14f50a13aa9b44485c2e3~mv2.jpg"
+                            class="img-fluid rounded-start;" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-5 mb-5">
-            <div style="margin-left:100px; border:1px solid black; width:75%;">
-                <div class="m-4">
-                    <h4>Popular Posts</h4>
-                    <hr>
-                    <ul style="list-style-type: none;">
-                        <li class="my-4">
-                            <img src="https://www.w3schools.com/w3images/workshop.jpg" style="width: 50px;">
-                            <span>Sed mattis nunc</span>
-                        </li>
-                        <hr>
-                        <li class="my-4 ">
-                            <img src="https://www.w3schools.com/w3images/gondol.jpg" style="width: 50px;">
-                            <span>Sed mattis nunc</span>
-                        </li>
-                        <hr>
-                        <li class="my-4 ">
-                            <img src="https://www.w3schools.com/w3images/skies.jpg" style="width: 50px;">
-                            <span>Sed mattis nunc</span>
-                        </li>
-                        <hr>
-                        <li class="my-4 ">
-                            <img src="https://www.w3schools.com/w3images/rock.jpg" style="width: 50px;">
-                            <span>Sed mattis nunc</span>
-                        </li>
-                        <hr>
-                        <li class="my-4 ">
-                            <img src="https://www.w3schools.com/w3images/rock.jpg" style="width: 50px;">
-                            <span>Sed mattis nunc</span>
-                        </li>
-                    </ul>
+
+        <div class="col-6">
+            <div
+                style="width:650px; background-color:#fef2f0; margin-top:100px; margin-right: 100px; padding-top: 100px;">
+                <div style="background-color: #bb5a3a; width:70%; margin-left:auto; margin-right:auto;" class="py-5">
+                    <h2 style="text-align:center; color:white">Let the posts</h2>
+                    <h2 style="text-align:center; color:white">come to you.</h2>
+                    <form>
+                        <div class="mb-3 mt-3">
+                            <label for="email" class="form-label" style="padding-left:110px;">Email:</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter email" name="email"
+                                style="width: 50%; margin-left:auto; margin-right:auto;">
+                        </div>
+                        <button type="submit" class="btn btn-light"
+                            style="margin-left:150px; width: 30%; color:#bb5a3a;"><b>Submit</b></button>
+                    </form>
+                </div>
+                <h2 style="text-align:center; margin-top:60px;">Find me on Instagram</h2>
+                <div style="margin-left:100px; margin: top 20px;">
+                    <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/02.jpg"
+                        width="200px" style=" margin-left:auto; margin-right:auto;">
+                    <img src=" https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/01.jpg"
+                        width="225px">
+                </div>
+                <div style="margin-left:100px;margin-top:10px;">
+                    <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/03.jpg"
+                        width="200px" style=" margin-left:auto; margin-right:auto;">
+                    <img src=" https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/01.jpg"
+                        width="225px">
+                </div>
+                <div style="margin-left:100px; margin-top:10px; padding-bottom:100px">
+                    <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/05.jpg"
+                        width="200px" style=" margin-left:auto; margin-right:auto;">
+                    <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Life%20Blog/01.jpg"
+                        width="225px">
                 </div>
             </div>
         </div>
-
     </div>
     </div>
-    <div class="row">
-        <div class="col-8">
-        <img src="https://picsum.photos/id/24/875/300" style="width: 100%px; margin-left:75px; margin-top:50px;">
+    <div style="height:680px; width:100%; margin-top:100px; background-color:#fef2f0;">
+        <h2 class="text-center" style="padding-top:100px;"> Let me know what's on your mind</h2>
+        <div style="max-width: 614px; margin-left:auto; margin-right:auto; margin-top:100px;">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="row" style="margin-top:50px;">
+                    <div class="col">
+                        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Leave us a message..."
+                            aria-label="Last name">
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-3 border border-dark"><br>
-        <h3>TITLE HEADING</h3>
-            <br>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam illo totam, fugiat dolore odit,
-                 reiciendis impedit nihil iure, autem delectus beatae incidunt? Nemo consequatur corporis repellendus
-                  illo eius cupiditate, expedita sunt provident, dicta aut iure nostrum. Autem temporibus sit aliquid. 
-                    aut numquam, saepe similique provident placeat impedit harum autem, incidunt minus distinctio laboriosam temporibus 
-                    reprehenderit dolore mollitia quibusdam voluptatibus perferendis optio dicta?</p>
-
-        </div>
-    </div>
-
-
-
-
-    <footer style="height:175px; padding:32px; background-color:gray; margin-top:20px;">
-        <button class="btn btn-lg btn-dark disabled">Previos</button>
-        <button class="btn btn-lg btn-dark ">Next>></button><br><br>
-        <p>Powered by w3.css</p>
-
-    </footer>
-
-
-
-
-
-
-
-
-
+      </div>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top" style="background-color:#bb5a3a;">
+          <p class="col-md-4 mb-0 text-muted">&copy; 2022 Company, Inc</p>
+      
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
+          </a>
+        </footer>
 
 
 
