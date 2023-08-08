@@ -24,4 +24,8 @@ Route::get('hobi', function () {
 Route::get('myblog', function () {
     return view('myblog');
 });
+Route::get('about', function () {
+    return view('about');
+});
+
 
