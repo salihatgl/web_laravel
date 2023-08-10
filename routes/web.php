@@ -27,5 +27,11 @@ Route::get('myblog', function () {
 Route::get('about', function () {
     return view('about');
 });
+Route::get('decor', function () {
+    return view('decor');
+});
+Route::get('bina', function () {
+    return view('bina');
+});
 
 
